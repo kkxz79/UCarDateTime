@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UCarTimeDate"
-  s.version      = "1.0.1"
-  s.summary      = "time converter"
+  s.version      = "1.0.2"
+  s.summary      = "UCarTimeDate time converter"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-			this project is time converter
+			UCarTimeDate this project is time converter
                    DESC
 
   s.homepage     = "https://github.com/kkxz79/UCarDateTime"
@@ -93,6 +93,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = 'UCarTimeDate/Classes/**/*.{h,m}','UCarTimeDate/Classes/*.{h,m}','UCarTimeDate/UCarTimeDate.h'
   s.exclude_files = "Classes/Exclude"
+  s.resource_bundles = { 'UCarTimeDate' => ['UCarTimeDate/UCarTimeDate.bundle/*.jpg']}
 
   # s.public_header_files = "Classes/**/*.h"
 
