@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface UCarBaseManager : NSObject
-
+- (NSString *)changeToStandardTime:(NSTimeInterval)timeInterval;
 @end

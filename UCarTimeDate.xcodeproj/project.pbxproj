@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B4847871E7FBD9D002E39F6 /* TimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4847851E7FBD9D002E39F6 /* TimeDate.h */; };
+		9B4847881E7FBD9D002E39F6 /* TimeDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4847861E7FBD9D002E39F6 /* TimeDate.m */; };
 		9BA0D8841E7BCF5000EB73E9 /* UCarTimeDate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BA0D87A1E7BCF5000EB73E9 /* UCarTimeDate.framework */; };
 		9BA0D8891E7BCF5000EB73E9 /* UCarTimeDateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0D8881E7BCF5000EB73E9 /* UCarTimeDateTests.m */; };
 		9BA0D88B1E7BCF5000EB73E9 /* UCarTimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA0D87D1E7BCF5000EB73E9 /* UCarTimeDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9BA0D89A1E7BCFAF00EB73E9 /* DayTimeControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA0D8961E7BCFAF00EB73E9 /* DayTimeControl.h */; };
-		9BA0D89B1E7BCFAF00EB73E9 /* DayTimeControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0D8971E7BCFAF00EB73E9 /* DayTimeControl.m */; };
-		9BA0D89C1E7BCFAF00EB73E9 /* TimeDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA0D8981E7BCFAF00EB73E9 /* TimeDate.h */; };
-		9BA0D89D1E7BCFAF00EB73E9 /* TimeDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0D8991E7BCFAF00EB73E9 /* TimeDate.m */; };
 		9BA0D8A01E7BCFE200EB73E9 /* UCarBaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BA0D89E1E7BCFE200EB73E9 /* UCarBaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9BA0D8A11E7BCFE200EB73E9 /* UCarBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA0D89F1E7BCFE200EB73E9 /* UCarBaseManager.m */; };
 		9BA0D8A31E7BD02500EB73E9 /* UCarTimeDate.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BA0D8A21E7BD02500EB73E9 /* UCarTimeDate.bundle */; };
@@ -30,16 +28,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B4847851E7FBD9D002E39F6 /* TimeDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDate.h; sourceTree = "<group>"; };
+		9B4847861E7FBD9D002E39F6 /* TimeDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDate.m; sourceTree = "<group>"; };
 		9BA0D87A1E7BCF5000EB73E9 /* UCarTimeDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UCarTimeDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA0D87D1E7BCF5000EB73E9 /* UCarTimeDate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCarTimeDate.h; sourceTree = "<group>"; };
 		9BA0D87E1E7BCF5000EB73E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA0D8831E7BCF5000EB73E9 /* UCarTimeDateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UCarTimeDateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA0D8881E7BCF5000EB73E9 /* UCarTimeDateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCarTimeDateTests.m; sourceTree = "<group>"; };
 		9BA0D88A1E7BCF5000EB73E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BA0D8961E7BCFAF00EB73E9 /* DayTimeControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayTimeControl.h; sourceTree = "<group>"; };
-		9BA0D8971E7BCFAF00EB73E9 /* DayTimeControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayTimeControl.m; sourceTree = "<group>"; };
-		9BA0D8981E7BCFAF00EB73E9 /* TimeDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeDate.h; sourceTree = "<group>"; };
-		9BA0D8991E7BCFAF00EB73E9 /* TimeDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeDate.m; sourceTree = "<group>"; };
 		9BA0D89E1E7BCFE200EB73E9 /* UCarBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCarBaseManager.h; sourceTree = "<group>"; };
 		9BA0D89F1E7BCFE200EB73E9 /* UCarBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCarBaseManager.m; sourceTree = "<group>"; };
 		9BA0D8A21E7BD02500EB73E9 /* UCarTimeDate.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UCarTimeDate.bundle; sourceTree = "<group>"; };
@@ -115,10 +111,8 @@
 		9BA0D8951E7BCFAF00EB73E9 /* TimeDate */ = {
 			isa = PBXGroup;
 			children = (
-				9BA0D8961E7BCFAF00EB73E9 /* DayTimeControl.h */,
-				9BA0D8971E7BCFAF00EB73E9 /* DayTimeControl.m */,
-				9BA0D8981E7BCFAF00EB73E9 /* TimeDate.h */,
-				9BA0D8991E7BCFAF00EB73E9 /* TimeDate.m */,
+				9B4847851E7FBD9D002E39F6 /* TimeDate.h */,
+				9B4847861E7FBD9D002E39F6 /* TimeDate.m */,
 			);
 			path = TimeDate;
 			sourceTree = "<group>";
@@ -130,9 +124,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B4847871E7FBD9D002E39F6 /* TimeDate.h in Headers */,
 				9BA0D8A01E7BCFE200EB73E9 /* UCarBaseManager.h in Headers */,
-				9BA0D89C1E7BCFAF00EB73E9 /* TimeDate.h in Headers */,
-				9BA0D89A1E7BCFAF00EB73E9 /* DayTimeControl.h in Headers */,
 				9BA0D88B1E7BCF5000EB73E9 /* UCarTimeDate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,9 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA0D89D1E7BCFAF00EB73E9 /* TimeDate.m in Sources */,
+				9B4847881E7FBD9D002E39F6 /* TimeDate.m in Sources */,
 				9BA0D8A11E7BCFE200EB73E9 /* UCarBaseManager.m in Sources */,
-				9BA0D89B1E7BCFAF00EB73E9 /* DayTimeControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +434,7 @@
 				9BA0D8901E7BCF5000EB73E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9BA0D8911E7BCF5000EB73E9 /* Build configuration list for PBXNativeTarget "UCarTimeDateTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +443,7 @@
 				9BA0D8931E7BCF5000EB73E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
